@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+<style>
+    /* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    background-color: aqua;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 32px;
+        background-color: brown;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* Media query for screens wider than 1000px */
+@media (min-width: 900px) {
+    h1 {
+        font-size: 40px;
+        background-color: rgb(24, 27, 27);
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <h1>Responsive media queries</h1>
+    <p> this is example for media queries</p>
+</body>
+</html>
